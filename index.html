@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Card UI Design</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Boxicons CSS -->
+    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="profile-card">
+      <div class="image">
+        <img src="profile.jpg" alt="" class="profile-img" />
+      </div>
+
+      <div class="text-data">
+        <span class="name">Kalyan Dasari</span>
+        <span class="job">Web developer</span>
+      </div>
+
+      <div class="media-buttons">
+        <a href="#" style="background: #4267b2" class="link">
+          <i class="bx bxl-facebook"></i>
+        </a>
+        <a href="http://www.linkedin.com/in/kalyan-dasari" style="background: #dddedf" class="link">
+            <i class='bx bxl-linkedin' style='color:#0077B5' ></i>
+        </a>
+        <a href="https://www.instagram.com/bunnykal/" style="background: #e1306c" class="link" >
+          <i class="bx bxl-instagram"></i>
+        </a>
+        <a href="https://github.com/kalyan-dasari" style="background: #292828" class="link">
+            <i class='bx bxl-github'></i>
+        </a>
+      </div>
+
+      <div class="buttons">
+        <button class="button" id="subscribeBtn" onclick="subscribed()">Subscribe</button>
+        <button class="button" id="meassageBtn" onclick="messagefun()">Message</button>
+      </div>
+
+      <div class="analytics">
+        <div class="data">
+          <i class="bx bx-heart"></i>
+          <span class="number">6M</span>
+        </div>
+        <div class="data">
+          <i class="bx bx-message-rounded"></i>
+          <span class="number">27k</span>
+        </div>
+        <div class="data">
+          <i class="bx bx-share"></i>
+          <span class="number">16k</span>
+        </div>
+      </div>
+      <div class="dat">
+        <span id="textspace"></span>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
